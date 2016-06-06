@@ -1,0 +1,90 @@
+Q1)
+    1) uname
+    2) uname -r
+    3) uname -n
+        hostname
+    4) Key setting to discard prior character is CTRL-h
+        Key setting to discard entire typed line is CTRL-u
+    5) date
+    6) who
+    7) echo ""      find these values
+    8) cd /root
+        cd /
+    9) pwd
+    10) cd
+    11) touch newfile.txt
+          cp newfile.txt newerfile.txt
+    12)     ls -l newerfile.txt
+    13)a)   echo "The character representing the file type is: "
+         b)     echo "The permission for the user is: "
+         c)     echo "The permission for the group is: "
+         d)     echo "The persmission for others is: "
+         e)     echo "The file size in bytes is: "
+     14) mv newerfile.txt newestfile.txt
+     
+ Q2) 
+    1) cd ~
+    2) cat > share <<EOF
+         > This is the First Line.
+         > This is the Second line.
+         > EOF
+     3) cat share
+     4) ls -i share
+        <record the inode>
+        find / -inum <inode number>
+    5) ????????????
+    6) ls -i share
+    7) cd ~ && mkdir linkdir
+    8) cd ~/linkdir
+    9) ln -f share2 ~/share <Check the order on this one>
+    10) ls -i ~/linkdir/share2
+    11) echo "Share: #; Share2: #"
+    12) echo "#"
+    13) 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+Q3)
+    1) cd ~
+    2) mkdir ~/wild
+    3) cd ~/wild
+    4) pwd
+    5) touch intro notea noteb notex ref1 ref2 ref3 section1 section2 section3 section4x section4y section4z
+    6) 

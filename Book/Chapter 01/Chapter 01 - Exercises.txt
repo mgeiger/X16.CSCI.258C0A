@@ -1,0 +1,27 @@
+EXERCISES
+
+1.1 - Operating systems like UNIX provide services both for programs and users. Explain.
+
+	Hmmm.
+
+1.2 - What does a program do when it needs to read a file?
+1.3 - Does a program always complete its time quantum before it makes way for another program?
+
+	There is heirarchy is program calls, 
+
+1.4 - Explain the significance of the terms multiprogramming, multiuser, and multitasking.
+1.5 - Why are UNIX commands noninteractive, and why is their output not usually preceded by header information?
+1.6 - What are system calls, and what role do they play in the system? How is C programming so different and powerful in the UNIX environment compared to Windows?
+1.7 - Two UNIX systems may not use the same system calls. True or false?
+1.8 - Name the three commands that you would try in sequence to log yourself out of the system. Which one of them will always work?
+1.9 - Run the following commands, and then invoke ls. What do you conclude?
+	echo > README [Enter]
+	echo > readme [Enter]
+1.10 - Enter the following commands, and note your observations: 
+	(i) who and tty, (ii) tput clear, (iii) id, (iv) ps and echo $$.
+1.11 - When you log in, a program starts executing at your terminal. What is this program known as? Name four types of this program that are available on a system.
+1.12 - What is the significance of your user-id? Where in the system is the name used?
+1.13 - What are the two schools of UNIX that initially guided its development? Mention the outcome of the standardization efforts that are currently in force today.
+1.14 - Create a directory, and change to that directory. Next, create another directory in the new directory, and then change to that directory too. Now, run cd without any arguments followed by pwd. What do you conclude?
+1.15 - Why is the shell called a command interpreter?
+1.16 - What is the one thing that is common to directories, devices, terminals, and printers?
