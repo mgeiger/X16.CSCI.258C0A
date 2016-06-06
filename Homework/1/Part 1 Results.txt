@@ -87,4 +87,7 @@ Q3)
     3) cd ~/wild
     4) pwd
     5) touch intro notea noteb notex ref1 ref2 ref3 section1 section2 section3 section4x section4y section4z
-    6) 
+    6) ls section*
+    7) ls section?
+    8) ls ?ntro
+    
