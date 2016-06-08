@@ -1,0 +1,204 @@
+Script started on Tue Jun  7 22:41:08 2016
+$ 
+$ 
+$ echo hw1q2.1
+hw1q2.1
+$ 
+$ 
+$ cd
+$ 
+$ 
+$ echo hw1q2.2
+hw1q2.2
+$ 
+$ 
+$ cat > share > <<EOF
+> This is the first line.
+> This is the second line.
+> EOF
+$ 
+$ 
+$ echo hw1q2.3
+hw1q2.3
+$ 
+$ 
+$ cat share
+This is the first line.
+This is the second line.
+$ 
+$ 
+$ echo hw1q2.4
+hw1q2.4
+$ 
+$ 
+$ ls -i share
+ 37132 share
+$ 
+$ 
+$ ls -l share
+-rw-r--r--   1 mgeiger    users           49 Jun  7 22:42 share
+$ 
+$ 
+$ echo hw1q2.5
+hw1q2.5
+$ 
+$ 
+$ ls -i share
+ 37132 share
+$ 
+$ 
+$ echo hw1q2.6
+hw1q2.6
+$ 
+$ 
+$ echo hw1q2.5
+hw1q2.5
+$ 
+$ 
+$ echo "Share ^?^?^?$                   $ echo "share hs as 1 hard link"
+share has 1 hard link
+$ 
+$ 
+$ echo hw1q2.6
+hw1q2.6
+$ 
+$ 
+$ ls -i share
+ 37132 share
+$ 
+$ 
+$ hw1q2.7
+sh: hw1q2.7:  not found.
+$ 
+$ 
+$ echo hw1q2.7
+hw1q2.7
+$ 
+$ 
+$ ls $    $ mkdir linkdir
+$ 
+$ 
+$ echo hw1q2.8
+hw1q2.8
+$ 
+$ 
+$ cd linkdir
+$ 
+$ 
+$ echo hw1q2.9
+hw1q2.9
+$ 
+$ 
+$ ln -f share2 ../share
+ln: cannot access share2
+$ ln -f ../share share2
+$ pwd
+/usr/home/mgeiger/linkdir
+$ ls
+share2
+$ 
+$ 
+$ echo hs w1q2.10
+hw1q2.10
+$ 
+$ 
+$ ls i hh    -i share2
+ 37132 share2
+$ 
+$ 
+$ echo hw  1q2.11
+hw1q2.11
+$ 
+$ 
+$ echo "Both ~/share and ~/linkdir/share2 have the same innode number of 3713$ 2 have the same innode number of 37132                                     <"
+Both ~/share and ~/linkdir/share2 have the same innode number of 37132
+$ 
+$ 
+$ echo hw1q2.12
+hw1q2.12
+$ 
+$ 
+$ echo "S^?    "~/linkdir/share2 has an innode number of 37132"
+~/linkdir/share2 has an innode number of 37132
+$ 
+$ 
+$ echo hw1q2.13
+hw1q2.13
+$ 
+$ 
+$ ls -l share2
+-rw-r--r--   2 mgeiger    users           49 Jun  7 22:42 share2
+$ 
+$ 
+$ hw  echo hw1q2.14
+hw1q2.14
+$ 
+$ 
+$ ehc  cho "~/linkdir/share1   2 has 2 hard links."
+~/linkdir/share2 has 2 hard links.
+$ 
+$ 
+$ echo hw1q2.15
+hw1q2.15
+$ 
+$ 
+$ ln -sf ../share sh oftShare
+$ 
+$ 
+$ echo hwq 1q2.16
+hw1q2.16
+$ 
+$ 
+$ ln -i softsh^?hh      Share
+Usage: ln [-f] [-i] [-s] f1 f2
+       ln [-f] [-i] [-s] f1 ... fn d1
+$ ls 0 -i softW Share
+ 37134 softShare
+$ 
+$ 
+$ echo hw1q2.17
+hw1q2.17
+$ 
+$ 
+$ echo "softShare (1 37134) does not have the same innode number as share (3712$ the same innode number as share (37121                                     <                                        32                                     <)."
+softShare (37134) does not have the same innode number as share (37132).
+$ 
+$ 
+$ echo hw1q2.18
+hw1q2.18
+$ 
+$ 
+$ ls -l softShare
+lrwxr-xr-x   1 mgeiger    users            8 Jun  7 22:50 softShare -> ../share
+$ 
+$ 
+$ echo hw1q2.19
+hw1q2.19
+$ 
+$ 
+$ cat share2
+This is the first line.
+This is the second line.
+$ 
+$ 
+$ echo hw1q2.1 20
+hw1q2.20
+$ 
+$ 
+$ cat softShare
+This is the first line.
+This is the second line.
+$ 
+$ 
+$ 
+$ echo eh  hw1q2.21
+hw1q2.21
+$ 
+$ 
+$ echo "softShare and share2 have the same conetn   tents as share file."
+softShare and share2 have the same contents as share file.
+$ 
+$ 
+$ exit
+
+script done on Tue Jun  7 22:54:06 2016

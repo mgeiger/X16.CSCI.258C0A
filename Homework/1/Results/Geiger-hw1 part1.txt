@@ -1,0 +1,687 @@
+Script started on Tue Jun  7 22:29:21 2016
+$ 
+$ 
+$ echo hw1q1.1
+hw1q1.1
+$ 
+$ 
+$ uname
+HP-UX
+$ 
+$ 
+$ echo hw1q1.2
+hw1q1.2
+$ 
+$ 
+$ uname -r
+B.11.31
+$ 
+$ 
+$ ehco     cho hw1q1.3
+hw1q1.3
+$ 
+$ 
+$ uname -n
+fsc-unix
+$ hostname
+fsc-unix
+$ 
+$ 
+$ eh cho hw1q1.4
+hw1q1.4
+$ 
+$ 
+$ echo "Key setting to si  discard prior character is CTRL-h"
+Key setting to discard prior character is CTRL-h
+$ ehco      echo "Key setting to discard p entire typed line is CTRL-u"
+Key setting to discard entire typed line is CTRL-u
+$ 
+$ 
+$ echo hw1q1.4 5
+hw1q1.5
+$ 
+$ 
+$ date
+Tue Jun  7 22:31:34 EDT 2016
+$ 
+$ 
+$ echo hw1q1.6
+hw1q1.6
+$ 
+$ 
+$ who
+lmelende   pts/1        Jun  7 21:46
+mgeiger    pts/2        Jun  7 22:22
+$ 
+$ 
+$ echo hw1q1.7
+hw1q1.7
+$ 
+$ 
+$ echo "Terminal ID: ptx s/2"
+Terminal ID: pts/2
+$ echo "Login Time: Jun  7 22:22"
+Login Time: Jun  7 22:22
+$ 
+$ 
+$ hw1q1.8
+sh: hw1q1.8:  not found.
+$ echo hw1q`.  1.8
+hw1q1.8
+$ 
+$ 
+$ cd /
+$ 
+$ 
+$ echo hw1q1.9
+hw1q1.9
+$ 
+$ 
+$ pwd
+/
+$ 
+$ 
+$ echo hw1q1.10
+hw1q1.10
+$ 
+$ 
+$ cd
+$ 
+$ 
+$ pwd
+/usr/home/mgeiger
+$ 
+$ 
+$ echo hw1q1.11
+hw1q1.11
+$ 
+$ 
+$ touch newfiletocopy
+$ cp newfiletocopy new
+$ 
+$ 
+$ echo hw1. q1.12
+hw1q1.12
+$ 
+$ 
+$ ll   s -l new
+-rw-r--r--   1 mgeiger    users            0 Jun  7 22:34 new
+$ 
+$ 
+$ hw  echo hw1q1.13.b a
+hw1q1.13.a
+$ 
+$ 
+$ echo "The character representing the file type is: -"
+The character representing the file type is: -
+$ 
+$ 
+$ echo hw1q1.13.b
+hw1q1.13.b
+$ 
+$ 
+$ echo "thehh     The character representing the user (owner) permssions ^?NS ^?$                                                                $ echo hw1q1.13.b$ 
+hw1q1.13.b
+$ echo $      $ 
+$ 
+$ echo "The chars repree^?   senting the user pressions is  : rw-"
+The chars representing the user pressions is: rw-
+$ 
+$ 
+$ echo hw1q1.13.c
+hw1q1.13.c
+$ 
+$ 
+$ echo "The chars representing the group permission is: r--"
+The chars representing the group permission is: r--
+$ 
+$ 
+$ echo hw1q1.13.c d
+hw1q1.13.d
+$ 
+$ 
+$ echo "The chars representing the other prh  ermission is  : r--"
+The chars representing the other permission is: r--
+$ 
+$ 
+$ echo hw1q1.14
+hw1q1.14
+$ 
+$ 
+$ mv new newerfile
+$ 
+$ 
+$ exit
+
+script done on Tue Jun  7 22:39:55 2016
+Script started on Tue Jun  7 22:41:08 2016
+$ 
+$ 
+$ echo hw1q2.1
+hw1q2.1
+$ 
+$ 
+$ cd
+$ 
+$ 
+$ echo hw1q2.2
+hw1q2.2
+$ 
+$ 
+$ cat > share > <<EOF
+> This is the first line.
+> This is the second line.
+> EOF
+$ 
+$ 
+$ echo hw1q2.3
+hw1q2.3
+$ 
+$ 
+$ cat share
+This is the first line.
+This is the second line.
+$ 
+$ 
+$ echo hw1q2.4
+hw1q2.4
+$ 
+$ 
+$ ls -i share
+ 37132 share
+$ 
+$ 
+$ ls -l share
+-rw-r--r--   1 mgeiger    users           49 Jun  7 22:42 share
+$ 
+$ 
+$ echo hw1q2.5
+hw1q2.5
+$ 
+$ 
+$ ls -i share
+ 37132 share
+$ 
+$ 
+$ echo hw1q2.6
+hw1q2.6
+$ 
+$ 
+$ echo hw1q2.5
+hw1q2.5
+$ 
+$ 
+$ echo "Share ^?^?^?$                   $ echo "share hs as 1 hard link"
+share has 1 hard link
+$ 
+$ 
+$ echo hw1q2.6
+hw1q2.6
+$ 
+$ 
+$ ls -i share
+ 37132 share
+$ 
+$ 
+$ hw1q2.7
+sh: hw1q2.7:  not found.
+$ 
+$ 
+$ echo hw1q2.7
+hw1q2.7
+$ 
+$ 
+$ ls $    $ mkdir linkdir
+$ 
+$ 
+$ echo hw1q2.8
+hw1q2.8
+$ 
+$ 
+$ cd linkdir
+$ 
+$ 
+$ echo hw1q2.9
+hw1q2.9
+$ 
+$ 
+$ ln -f share2 ../share
+ln: cannot access share2
+$ ln -f ../share share2
+$ pwd
+/usr/home/mgeiger/linkdir
+$ ls
+share2
+$ 
+$ 
+$ echo hs w1q2.10
+hw1q2.10
+$ 
+$ 
+$ ls i hh    -i share2
+ 37132 share2
+$ 
+$ 
+$ echo hw  1q2.11
+hw1q2.11
+$ 
+$ 
+$ echo "Both ~/share and ~/linkdir/share2 have the same innode number of 3713$ 2 have the same innode number of 37132                                     <"
+Both ~/share and ~/linkdir/share2 have the same innode number of 37132
+$ 
+$ 
+$ echo hw1q2.12
+hw1q2.12
+$ 
+$ 
+$ echo "S^?    "~/linkdir/share2 has an innode number of 37132"
+~/linkdir/share2 has an innode number of 37132
+$ 
+$ 
+$ echo hw1q2.13
+hw1q2.13
+$ 
+$ 
+$ ls -l share2
+-rw-r--r--   2 mgeiger    users           49 Jun  7 22:42 share2
+$ 
+$ 
+$ hw  echo hw1q2.14
+hw1q2.14
+$ 
+$ 
+$ ehc  cho "~/linkdir/share1   2 has 2 hard links."
+~/linkdir/share2 has 2 hard links.
+$ 
+$ 
+$ echo hw1q2.15
+hw1q2.15
+$ 
+$ 
+$ ln -sf ../share sh oftShare
+$ 
+$ 
+$ echo hwq 1q2.16
+hw1q2.16
+$ 
+$ 
+$ ln -i softsh^?hh      Share
+Usage: ln [-f] [-i] [-s] f1 f2
+       ln [-f] [-i] [-s] f1 ... fn d1
+$ ls 0 -i softW Share
+ 37134 softShare
+$ 
+$ 
+$ echo hw1q2.17
+hw1q2.17
+$ 
+$ 
+$ echo "softShare (1 37134) does not have the same innode number as share (3712$ the same innode number as share (37121                                     <                                        32                                     <)."
+softShare (37134) does not have the same innode number as share (37132).
+$ 
+$ 
+$ echo hw1q2.18
+hw1q2.18
+$ 
+$ 
+$ ls -l softShare
+lrwxr-xr-x   1 mgeiger    users            8 Jun  7 22:50 softShare -> ../share
+$ 
+$ 
+$ echo hw1q2.19
+hw1q2.19
+$ 
+$ 
+$ cat share2
+This is the first line.
+This is the second line.
+$ 
+$ 
+$ echo hw1q2.1 20
+hw1q2.20
+$ 
+$ 
+$ cat softShare
+This is the first line.
+This is the second line.
+$ 
+$ 
+$ 
+$ echo eh  hw1q2.21
+hw1q2.21
+$ 
+$ 
+$ echo "softShare and share2 have the same conetn   tents as share file."
+softShare and share2 have the same contents as share file.
+$ 
+$ 
+$ exit
+
+script done on Tue Jun  7 22:54:06 2016
+Script started on Tue Jun  7 22:54:49 2016
+$ 
+$ 
+$ echo hw1q3.1
+hw1q3.1
+$ 
+$ 
+$ cd 
+$ pwd
+/usr/home/mgeiger
+$ 
+$ 
+$ echo hw1q3.2
+hw1q3.2
+$ 
+$ 
+$ mkdir wilkh  d
+$ 
+$ 
+$ echo hw1q3.3
+hw1q3.3
+$ 
+$ 
+$ cd wild
+$ pwd
+/usr/home/mgeiger/wild
+$ 
+$ 
+$ echo hw1q3.4
+hw1q3.4
+$ 
+$ 
+$ pwd
+/usr/home/mgeiger/wild
+$ 
+$ 
+$ echo hw1q3.5
+hw1q3.5
+$ 
+$ 
+$ touch intro notea noteb notex ref1 ref2 ref3 re    section1 section2 section3
+$ touch section4x section h  4y section  4z
+$ ls
+intro      noteb      ref1       ref3       section2   section4x  section4z
+notea      notex      ref2       section1   section3   section4y
+$ 
+$ 
+$ echo hw1q3.6
+hw1q3.6
+$ 
+$ 
+$ ls set ction*
+section1   section2   section3   section4x  section4y  section4z
+$ 
+$ 
+$ echo hw1q3.7
+hw1q3.7
+$ 
+$ 
+$ ls section?
+section1  section2  section3
+$ 
+$ 
+$ echo hw1q3.8
+hw1q3.8
+$ 
+$ 
+$ ls intro*
+intro
+$ 
+$ 
+$ 
+$ echo hw1q3.9
+hw1q3.9
+$ 
+$ 
+$ ls *[1,3]
+ref1      ref3      section1  section3
+$ 
+$ 
+$ echo hw1q3.10
+hw1q3.10
+$ 
+$ 
+$ chmod 766 section*
+$ 
+$ 
+$ echo hw1q3.11
+hw1q3.11
+$ 
+$ 
+$ ls -l section*
+-rwxrw-rw-   1 mgeiger    users            0 Jun  7 22:56 section1
+-rwxrw-rw-   1 mgeiger    users            0 Jun  7 22:56 section2
+-rwxrw-rw-   1 mgeiger    users            0 Jun  7 22:56 section3
+-rwxrw-rw-   1 mgeiger    users            0 Jun  7 22:56 section4x
+-rwxrw-rw-   1 mgeiger    users            0 Jun  7 22:56 section4y
+-rwxrw-rw-   1 mgeiger    users            0 Jun  7 22:56 section4z
+$ 
+$ 
+$ echo hw1q3.12
+hw1q3.12
+$ 
+$ 
+$ cd ..
+$ 
+$ 
+$ echo hw1q3.13
+hw1q3.13
+$ 
+$ 
+$ pwd
+/usr/home/mgeiger
+$ 
+$ 
+$ echo hw1q3.14
+hw1q3.14
+$ 
+$ 
+$ rm -R wild
+$ 
+$ 
+$ echo hw1q3.15
+hw1q3.15
+$ 
+$ 
+$ ls
+hw1            newerfile      newfile.txt    share
+linkdir        newerfile.txt  newfiletocopy
+$ echo "I was able to delete the non empty directory because I used the -R op$ ty directory because I used the -R opt                                     <ion wt ith rm"
+I was able to delete the non empty directory because I used the -R option with rm
+$ 
+$ 
+$ echo hw1q3.`6  16
+hw1q3.16
+$ 
+$ 
+$ echo "Directoryd    deleted."
+Directory deleted.
+$ 
+$ 
+$ echo hw1q3.17
+hw1q3.17
+$ 
+$ 
+$ echo "Directory delt eted."
+Directory deleted.
+$ 
+$ 
+$ echo hw1q3.1$             $ cd wild
+sh: wild:  not found.
+$ 
+$ 
+$ echo hw1q3.18
+hw1q3.18
+$ 
+$ 
+$ cc d
+$ pwd
+/usr/home/mgeiger
+$ 
+$ 
+$ echo hw1q3.19
+hw1q3.19
+$ 
+$ 
+$ rm  dir wild
+rmdir: wild: No such file or directory
+$ 
+$ 
+$ rm -R wild
+rm: wild non-existent
+$ 
+$ 
+$ exit
+
+script done on Tue Jun  7 23:04:07 2016
+Script started on Tue Jun  7 23:04:37 2016
+$ 
+$ 
+$ echo hw1q4.1
+hw1q4.1
+$ 
+$ 
+$ cd 
+$ pwd
+/usr/home/mgeiger
+$ 
+$ 
+$ echo hw1q4.2
+hw1q4.2
+$ 
+$ 
+$ echo hw1q4.  3
+hw1q4.3
+$ 
+$ 
+$ cat testfile$             $ cat > newfile
+This is the first line.
+This is the second line.
+$ 
+$ 
+$ echo hw1q4.4
+hw1q4.4
+$ 
+$ 
+$ echo "I used cat > newfile to create a new file."
+I used cat > newfile to create a new file.
+$ 
+$ 
+$ echo hw1q4.5
+hw1q4.5
+$ 
+$ 
+$ echo hw1q4.5.a
+hw1q4.5.a
+$ 
+$ 
+$ od -c newfile
+0000000   T   h   i   s       i   s       t   h   e       f   i   r   s
+0000020   t       l   i   n   e   .  \n   T   h   i   s       i   s    
+0000040   t   h   e       s   e   c   o   n   d       l   i   n   e   .
+0000060  \n
+0000061
+$ 
+$ 
+$ echo hw1q4.5.b
+hw1q4.5.b
+$ 
+$ 
+$ od -x newfile
+0000000 5468 6973 2069 7320 7468 6520 6669 7273
+0000020 7420 6c69 6e65 2e0a 5468 6973 2069 7320
+0000040 7468 6520 7365 636f 6e64 206c 696e 652e
+0000060 0a00
+0000061
+$ 
+$ 
+$ echo hw1q4.5.c
+hw1q4.5.c
+$ 
+$ 
+$ os d -b newfile
+0000000 124 150 151 163 040 151 163 040 164 150 145 040 146 151 162 163
+0000020 164 040 154 151 156 145 056 012 124 150 151 163 040 151 163 040
+0000040 164 150 145 040 163 145 143 157 156 144 040 154 151 156 145 056
+0000060 012
+0000061
+$ 
+$ 
+$ echo hw1q4.5.d
+hw1q4.5.d
+$ 
+$ 
+$ od -x -b newfile
+0000000    5468    6973    2069    7320    7468    6520    6669    7273
+        124 150 151 163 040 151 163 040 164 150 145 040 146 151 162 163
+0000020    7420    6c69    6e65    2e0a    5468    6973    2069    7320
+        164 040 154 151 156 145 056 012 124 150 151 163 040 151 163 040
+0000040    7468    6520    7365    636f    6e64    206c    696e    652e
+        164 150 145 040 163 145 143 157 156 144 040 154 151 156 145 056
+0000060    0a00
+        012
+0000061
+$ 
+$ 
+$ echo hw1q4.5^?   6
+hw1q4.6
+$ 
+$ 
+$ echo "A new line is mak de by using the special \\n"
+A new line is made by using the special 
+
+$ echo "  A new line is made by the special '\\n'"
+A new line is made by the special '
+'
+$ echo "A new line is made by the special '\n'"
+A new line is made by the special '
+'
+$ echo "Argh"
+Argh
+$ echo "A new line is made by the special \n"
+A new line is made by the special 
+
+$ echo "this work ^?s     ks in FreeBSD"
+this works in FreeBSD
+$ echo -e "New Line: \n"
+-e New Line: 
+
+$ echo "New Line: `\n`"
+sh: n:  not found.
+New Line: 
+$ echo "New Line: \\n\"
+> "
+New Line: 
+"
+
+$ echo "New Line: \\\n"
+New Line: \n
+$ 
+$ 
+$ 
+$ 
+$ echo hw1q4.7
+hw1q4.7
+$ 
+$ 
+$ echo "New l^?   Line \\\\^Hn   ^H  \n"
+New Line \n
+$ echo "Z: $          $ echo "New Line ASCII:                 CR: 0x13"
+CR: 0x13
+$ echo "LF: 0x10"
+LF: 0x10
+$ echo "Strike that"
+Strike that
+$ 
+$ 
+$ 
+$ echo "C: R: 12  0d13; LF: 0d10"
+CR: 0d13; LF: 0d10
+$ echo "Z: 0d90; z: 0d122"
+Z: 0d90; z: 0d122
+$ 
+$ 
+$ exit
+
+script done on Tue Jun  7 23:23:48 2016

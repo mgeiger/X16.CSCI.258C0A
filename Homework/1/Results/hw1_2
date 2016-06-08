@@ -1,0 +1,113 @@
+Student Name: Matthew J. Geiger
+Student ID: ?
+Homework #1 - Part II
+
+Seq#	Unix Command	Description
+1. 	admin		create and administer SCCS files
+2. 	at		execute batched commands immediately or at a later time
+3. 	awk		pattern-directed scanning and processing language
+4. 	bg		run jobs in the background		
+5. 	cal		print calendar
+6. 	calendar	reminder service
+7. 	cat		concatenate, copy, and print files
+8. 	cc		a C++ and C compiler
+9. 	cd		change working directory
+10. 	chgrp		change file owner or group
+11. 	chmod		change file mode access permissions
+12. 	chown		change file owner or group
+13. 	chsh		change default login shell
+14. 	comm		select or reject lines common to two sorted files
+15. 	compress	compress and expand data
+16. 	cp		copy files and directory subtrees
+17. 	cpio		copy file archives in and out; duplicate directory tress
+18. 	crontab		user job file scheduler
+19. 	date		display or set the date and time
+20. 	dbx		source level debugger	
+21. 	delta		make a delta (change) to an SCCS file
+22. 	deroff		remove nroff, tbl, and neqn constructs
+23. 	df		report number of free file system disk blocks
+24. 	diff		differential file and directory comparator
+25. 	du		summarize disk usage
+26. 	echo		echo (print) arguments
+27. 	expr		evaluate arguments as an expression
+28. 	fg		runs jobs in the foreground	
+29.	file		determine file type
+30. 	find		find files
+31. 	finger		user information lookup program
+32.	fsck		file system consistency check and interactive repair
+33. 	ftp		file transfer program
+34. 	get		get a version of an SCSS file
+35. 	getty		set terminal type, modes, speed, and line discipline
+36. 	grep		search a file for a pattern
+37. 	head		give first few lines
+38. 	hostname	set or display name of current host system
+39. 	init		process control initialization
+40. 	kill		send a signal to a process; terminate a process
+41. 	learn		computer aided instructions about UNIX	
+42. 	lex		generate programs for lexical analysis of text
+43. 	ln		link files and directories
+44. 	lp		print/alter/cancel requests on an LP destination
+45. 	lpq		show printer queue status
+46. 	lpr		print files
+47. 	ls		list contents of directories
+48. 	mail		send mail to users or read mail
+49. 	mailx		interactive mail message processing system
+50. 	make		maintain, update, and regenerate groups of programs
+51. 	man		find manual information by keywords; print out a manual entry
+52. 	mesg		permint or deny messages to terminal
+53. 	mkdir		make a directory
+54. 	more		file perusal filter for screen viewing
+55. 	mount		mount a file system
+56. 	mv		move or rename files and directories
+57. 	newgrp		switch to a new group
+58. 	news		print news items
+59. 	nice		run a command at nondefault priority
+60. 	nohup		run a command immune to hangups
+61. 	od		octal and hexidecimal dump
+62. 	passwd		change login password and associated attributes
+63. 	ping		send ICMP Echo Request packets to network host
+64. 	pr		print files
+65. 	prs		print and summarize an SCCS file
+66. 	ps		report process status
+67. 	pwd		print (display) working directory pathname
+68. 	rcp		remote file copy
+69. 	rlogin		remote login
+70. 	rm		remove files or directories
+71. 	rmdel		remove a delta from an SCCS file
+72. 	rmdir		remove directories
+73. 	rsh		standard and restricted POSIX.2-conformant command shells
+74. 	ruptime		show status of local machines
+75. 	rwho		show who is logged in on local machine
+76. 	sed		stream text editor
+77. 	set		Modifies characteristics for the DTS entity.
+78. 	shift		shift positional parameters
+79. 	shutdown	shut down a socket
+80. 	sleep		suspend execution for an interval
+81. 	sort		sort or merge files
+82. 	spell		find spelling errors
+83. 	stty		set the options for a terminal port
+84. 	su		switch user
+85. 	tail		deliver the last part of a file
+86. 	talk		talk to another user
+87. 	tar		tape file archiver
+88. 	tee		pipe fitting to copy standard output to file
+89. 	telnet		user interface to the TELNET protocol
+90. 	test		condition evaluation command
+91. 	touch		update access, modification, and/or change times of file
+92. 	tr		translate characters
+93. 	tty		get the name of the terminal
+94. 	umask		set or display the file mode creation mask
+95. 	umount		unmount a file system
+96. 	uncompress	compress and expand data
+97. 	uniq		report repeated lines in a file
+98. 	unset		unset values and attributes of variables and functions
+99. 	vi		screen-orientated (visual) text editor
+100.	view		screen-orientated (visual) text editor
+101.	wall		write message to all users
+102.	wc		count words, lines, and bytes or characters in a file
+103. 	what		get SCCS identificaiton information
+104. 	whereis		locate source, binary, and/or manual for program
+105. 	which		locate a program file including aliases and paths
+106. 	who		who is on the system
+107. 	write		interactivey write (talk) to another user
+108. 	zcat		compress and expand data

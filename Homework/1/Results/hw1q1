@@ -1,0 +1,156 @@
+Script started on Tue Jun  7 22:29:21 2016
+$ 
+$ 
+$ echo hw1q1.1
+hw1q1.1
+$ 
+$ 
+$ uname
+HP-UX
+$ 
+$ 
+$ echo hw1q1.2
+hw1q1.2
+$ 
+$ 
+$ uname -r
+B.11.31
+$ 
+$ 
+$ ehco     cho hw1q1.3
+hw1q1.3
+$ 
+$ 
+$ uname -n
+fsc-unix
+$ hostname
+fsc-unix
+$ 
+$ 
+$ eh cho hw1q1.4
+hw1q1.4
+$ 
+$ 
+$ echo "Key setting to si  discard prior character is CTRL-h"
+Key setting to discard prior character is CTRL-h
+$ ehco      echo "Key setting to discard p entire typed line is CTRL-u"
+Key setting to discard entire typed line is CTRL-u
+$ 
+$ 
+$ echo hw1q1.4 5
+hw1q1.5
+$ 
+$ 
+$ date
+Tue Jun  7 22:31:34 EDT 2016
+$ 
+$ 
+$ echo hw1q1.6
+hw1q1.6
+$ 
+$ 
+$ who
+lmelende   pts/1        Jun  7 21:46
+mgeiger    pts/2        Jun  7 22:22
+$ 
+$ 
+$ echo hw1q1.7
+hw1q1.7
+$ 
+$ 
+$ echo "Terminal ID: ptx s/2"
+Terminal ID: pts/2
+$ echo "Login Time: Jun  7 22:22"
+Login Time: Jun  7 22:22
+$ 
+$ 
+$ hw1q1.8
+sh: hw1q1.8:  not found.
+$ echo hw1q`.  1.8
+hw1q1.8
+$ 
+$ 
+$ cd /
+$ 
+$ 
+$ echo hw1q1.9
+hw1q1.9
+$ 
+$ 
+$ pwd
+/
+$ 
+$ 
+$ echo hw1q1.10
+hw1q1.10
+$ 
+$ 
+$ cd
+$ 
+$ 
+$ pwd
+/usr/home/mgeiger
+$ 
+$ 
+$ echo hw1q1.11
+hw1q1.11
+$ 
+$ 
+$ touch newfiletocopy
+$ cp newfiletocopy new
+$ 
+$ 
+$ echo hw1. q1.12
+hw1q1.12
+$ 
+$ 
+$ ll   s -l new
+-rw-r--r--   1 mgeiger    users            0 Jun  7 22:34 new
+$ 
+$ 
+$ hw  echo hw1q1.13.b a
+hw1q1.13.a
+$ 
+$ 
+$ echo "The character representing the file type is: -"
+The character representing the file type is: -
+$ 
+$ 
+$ echo hw1q1.13.b
+hw1q1.13.b
+$ 
+$ 
+$ echo "thehh     The character representing the user (owner) permssions ^?NS ^?$                                                                $ echo hw1q1.13.b$ 
+hw1q1.13.b
+$ echo $      $ 
+$ 
+$ echo "The chars repree^?   senting the user pressions is  : rw-"
+The chars representing the user pressions is: rw-
+$ 
+$ 
+$ echo hw1q1.13.c
+hw1q1.13.c
+$ 
+$ 
+$ echo "The chars representing the group permission is: r--"
+The chars representing the group permission is: r--
+$ 
+$ 
+$ echo hw1q1.13.c d
+hw1q1.13.d
+$ 
+$ 
+$ echo "The chars representing the other prh  ermission is  : r--"
+The chars representing the other permission is: r--
+$ 
+$ 
+$ echo hw1q1.14
+hw1q1.14
+$ 
+$ 
+$ mv new newerfile
+$ 
+$ 
+$ exit
+
+script done on Tue Jun  7 22:39:55 2016

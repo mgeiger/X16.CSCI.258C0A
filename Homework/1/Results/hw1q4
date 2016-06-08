@@ -1,0 +1,150 @@
+Script started on Tue Jun  7 23:04:37 2016
+$ 
+$ 
+$ echo hw1q4.1
+hw1q4.1
+$ 
+$ 
+$ cd 
+$ pwd
+/usr/home/mgeiger
+$ 
+$ 
+$ echo hw1q4.2
+hw1q4.2
+$ 
+$ 
+$ echo hw1q4.  3
+hw1q4.3
+$ 
+$ 
+$ cat testfile$             $ cat > newfile
+This is the first line.
+This is the second line.
+$ 
+$ 
+$ echo hw1q4.4
+hw1q4.4
+$ 
+$ 
+$ echo "I used cat > newfile to create a new file."
+I used cat > newfile to create a new file.
+$ 
+$ 
+$ echo hw1q4.5
+hw1q4.5
+$ 
+$ 
+$ echo hw1q4.5.a
+hw1q4.5.a
+$ 
+$ 
+$ od -c newfile
+0000000   T   h   i   s       i   s       t   h   e       f   i   r   s
+0000020   t       l   i   n   e   .  \n   T   h   i   s       i   s    
+0000040   t   h   e       s   e   c   o   n   d       l   i   n   e   .
+0000060  \n
+0000061
+$ 
+$ 
+$ echo hw1q4.5.b
+hw1q4.5.b
+$ 
+$ 
+$ od -x newfile
+0000000 5468 6973 2069 7320 7468 6520 6669 7273
+0000020 7420 6c69 6e65 2e0a 5468 6973 2069 7320
+0000040 7468 6520 7365 636f 6e64 206c 696e 652e
+0000060 0a00
+0000061
+$ 
+$ 
+$ echo hw1q4.5.c
+hw1q4.5.c
+$ 
+$ 
+$ os d -b newfile
+0000000 124 150 151 163 040 151 163 040 164 150 145 040 146 151 162 163
+0000020 164 040 154 151 156 145 056 012 124 150 151 163 040 151 163 040
+0000040 164 150 145 040 163 145 143 157 156 144 040 154 151 156 145 056
+0000060 012
+0000061
+$ 
+$ 
+$ echo hw1q4.5.d
+hw1q4.5.d
+$ 
+$ 
+$ od -x -b newfile
+0000000    5468    6973    2069    7320    7468    6520    6669    7273
+        124 150 151 163 040 151 163 040 164 150 145 040 146 151 162 163
+0000020    7420    6c69    6e65    2e0a    5468    6973    2069    7320
+        164 040 154 151 156 145 056 012 124 150 151 163 040 151 163 040
+0000040    7468    6520    7365    636f    6e64    206c    696e    652e
+        164 150 145 040 163 145 143 157 156 144 040 154 151 156 145 056
+0000060    0a00
+        012
+0000061
+$ 
+$ 
+$ echo hw1q4.5^?   6
+hw1q4.6
+$ 
+$ 
+$ echo "A new line is mak de by using the special \\n"
+A new line is made by using the special 
+
+$ echo "  A new line is made by the special '\\n'"
+A new line is made by the special '
+'
+$ echo "A new line is made by the special '\n'"
+A new line is made by the special '
+'
+$ echo "Argh"
+Argh
+$ echo "A new line is made by the special \n"
+A new line is made by the special 
+
+$ echo "this work ^?s     ks in FreeBSD"
+this works in FreeBSD
+$ echo -e "New Line: \n"
+-e New Line: 
+
+$ echo "New Line: `\n`"
+sh: n:  not found.
+New Line: 
+$ echo "New Line: \\n\"
+> "
+New Line: 
+"
+
+$ echo "New Line: \\\n"
+New Line: \n
+$ 
+$ 
+$ 
+$ 
+$ echo hw1q4.7
+hw1q4.7
+$ 
+$ 
+$ echo "New l^?   Line \\\\^Hn   ^H  \n"
+New Line \n
+$ echo "Z: $          $ echo "New Line ASCII:                 CR: 0x13"
+CR: 0x13
+$ echo "LF: 0x10"
+LF: 0x10
+$ echo "Strike that"
+Strike that
+$ 
+$ 
+$ 
+$ echo "C: R: 12  0d13; LF: 0d10"
+CR: 0d13; LF: 0d10
+$ echo "Z: 0d90; z: 0d122"
+Z: 0d90; z: 0d122
+$ 
+$ 
+$ exit
+
+script done on Tue Jun  7 23:23:48 2016

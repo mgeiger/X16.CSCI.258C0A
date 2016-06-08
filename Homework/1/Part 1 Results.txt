@@ -21,7 +21,11 @@ Q1)
          d)     echo "The persmission for others is: "
          e)     echo "The file size in bytes is: "
      14) mv newerfile.txt newestfile.txt
-     
+
+
+
+
+--------------------------------------------------------------------------     
  Q2) 
     1) cd ~
     2) cat > share <<EOF
