@@ -1,0 +1,36 @@
+1) 
+    echo "Shell: $SHELL"
+    
+2) 
+    echo "Program Name: sh"
+    
+3) 
+    echo "Home: $HOME"
+    
+4) 
+    echo '$HOME is the directory where the user starts after logging in and where they can store data.'
+    
+5)
+    echo "Path: $PATH"
+    
+6)
+    ehco "The last item in the path is . (the current directory)"
+    
+7)
+    echo $MAIL
+    
+8)
+    echo "Mail is stored in the /var/mail/ directory in the file mgeiger"
+    
+    
+9)
+    echo $TERM
+    
+10)
+    echo "I am using an xterm."
+    
+11) 
+    cat ~/.profile
+    
+12) 
+    echo "'$EDITOR' is the only predefinded shell variable that is exported."

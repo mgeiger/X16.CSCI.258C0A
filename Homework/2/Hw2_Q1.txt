@@ -1,0 +1,27 @@
+1) 
+    ps -U mgeiger
+    
+2) 
+    ps -lU mgeiger
+    
+3) 
+    echo "Shell Process Name: {}"
+    echo "Shell Process Character: {}"
+
+4) 
+    echo "Shell Process ID: {}"
+    echo "Shell Parent PID: {}"
+    
+5) 
+    ps -e
+    
+6) 
+    ps -e | grep ' init'
+    
+7) 
+    echo "Init PID: {}"
+    
+8) 
+    who | wc
+    
+    
