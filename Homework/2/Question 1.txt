@@ -1,0 +1,6 @@
+1) ps -U mgeiger
+	ps -U $USER
+
+2) ps -lU $USER
+
+3) echo ""
